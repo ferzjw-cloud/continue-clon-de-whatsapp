@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon de WhatsApp</title>
+    <link rel="shortcut icon" href="./assets/messages-ios-logo-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="app">
+        <aside>
+            <header>
+                <div class="profile">
+                    <img src="https://github.com/ferzjw-cloud.png" alt="foto de perfil">
+                <h2>Fernando Fernández</h2>
+                </div>
+                <div class="actions">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2"/><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/></g></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3h13a3 3 0 0 1 3 3v13a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3m0 1a2 2 0 0 0-2 2v11.59l4.29-4.3l2.5 2.5l5-5L20 16V6a2 2 0 0 0-2-2zm4.79 13.21l-2.5-2.5L3 19a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-1.59l-5.21-5.2zM7.5 6A2.5 2.5 0 0 1 10 8.5A2.5 2.5 0 0 1 7.5 11A2.5 2.5 0 0 1 5 8.5A2.5 2.5 0 0 1 7.5 6m0 1A1.5 1.5 0 0 0 6 8.5A1.5 1.5 0 0 0 7.5 10A1.5 1.5 0 0 0 9 8.5A1.5 1.5 0 0 0 7.5 7"/></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 701"><path fill="currentColor" d="m175 397l280-280c3-3 27-27 65-40c53-17 107-3 150 40c44 43 57 96 40 149c-12 38-37 64-40 67L369 634c-52 52-182 119-302 0c-119-119-51-250 0-301L390 9c12-12 31-12 43 0s12 31 0 43L111 376c-5 4-106 109 0 215c103 103 204 11 215 0l301-302s17-17 25-41c10-32 3-60-25-88c-60-60-118-10-129 0L218 439c-10 10-17 27 0 44s33 9 43 0l194-194c12-11 32-11 43 0c12 12 12 32 0 44L304 526c-27 26-82 47-129 0c-48-47-27-103 0-129"/></svg>
+                    </button>
+                </div>
+            </header>
+            <div class="search">
+                <form action="">
+                    <input type="search" name="" id="" placeholder="
+                    buscar un chat o iniciar uno nuevo">
+                </form>
+            </div>
+            <section class="chats">
+                <ul> 
+                    <li class="user-chat">
+                        <img src="./assets/4-profile.png" alt="foto de perfil de Maria Lopez">
+                        <div>
+                          <h3>María Lopez</h3>
+                          <p>Te esperamos</p>
+                         </div>
+                    </li>
+                    <li class="user-chat">
+                        <img src="./assets/2-profile.png" alt="foto de perfil de Grupo proyecto">
+                        <div>
+                          <h3>Grupo proyecto</h3>
+                          <p>push a main - revision</p>
+                         </div>
+                    </li>
+                    <li class="user-chat">
+                        <img src="./assets/1-profile.png" alt="foto de perfil de Hernan admin">
+                        <div>
+                          <h3>Hernán admin</h3>
+                          <p>Reunion importante</p>
+                         </div>
+                    </li>
+                    <li class="user-chat">
+                        <img src="./assets/3-profile.png" alt="foto de perfil de Club">
+                        <div>
+                          <h3>Club</h3>
+                          <p>Hay partido!</p>
+                         </div>
+                    </li>
+                    <li class="user-chat">
+                        <img src="./assets/barrio-privado.jpg" alt="foto de perfil de Barrio privado">
+                        <div>
+                          <h3>Consorcio Los Fresnos</h3>
+                          <p>Reunión urgente</p>
+                         </div>
+                    </li>
+                </ul>
+                
+            </section>
+        </aside>
+
+        <div class="chat-pannel">
+            <header class="chat-header">
+                <img src="./assets/4-profile.png" alt="foto de perfil">
+                <div>
+                    <h3>María Lopez</h3>
+                    <p>en linea</p>
+                </div>
+
+            </header>
+            <section class="messages">
+                <div class="message you">
+                    <p class="content">Hola! queres venir por un cafe?</p>
+                    <p class="time">14:12</p>
+                </div>
+                <div class="message me">
+                    <p class="content">Si perfecto, a las 18 te viene bien?</p>
+                    <p class="time">14:13</p>
+                </div>
+                <div class="message you">
+                    <p class="content">Dale dale, en la plaza entonces 👍</p>
+                    <p class="time">14:14</p>
+                </div>
+                <div class="message me">
+                    <p class="content">ok!</p>
+                    <p class="time">14:20</p>
+                </div>
+                <div class="message you">
+                    <p class="content">Te esperamos</p>
+                    <p class="time">14:22</p>
+                </div>
+               
+            </section>
+
+            <footer>
+               <button class="attach">
+                <svg xmlns="http://www.w3.org/2000/svg" width="131.11" height="128" viewBox="0 0 718 701"><path fill="currentColor" d="m175 397l280-280c3-3 27-27 65-40c53-17 107-3 150 40c44 43 57 96 40 149c-12 38-37 64-40 67L369 634c-52 52-182 119-302 0c-119-119-51-250 0-301L390 9c12-12 31-12 43 0s12 31 0 43L111 376c-5 4-106 109 0 215c103 103 204 11 215 0l301-302s17-17 25-41c10-32 3-60-25-88c-60-60-118-10-129 0L218 439c-10 10-17 27 0 44s33 9 43 0l194-194c12-11 32-11 43 0c12 12 12 32 0 44L304 526c-27 26-82 47-129 0c-48-47-27-103 0-129"/></svg>
+               </button>
+               <form>
+                <textarea type="text" placeholder="Escribe un mensaje"></textarea>
+                </form>
+               <button class="send">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11zm7.318-19.539l-10.94 10.939"/></svg>
+               </button>
+            </footer>
+
+        </div>
+    </section>
+</body>
+</html>
